@@ -1,0 +1,61 @@
+
+PCA + MLP classification:
+             precision    recall  f1-score   support
+
+          -       0.59      0.42      0.49        24
+          A       0.96      0.90      0.93      1686
+          B       0.73      0.85      0.78        98
+          C       0.89      0.93      0.91       305
+          D       0.88      0.82      0.85       183
+          E       0.95      0.94      0.95      1471
+          F       0.65      0.61      0.63        61
+          G       0.91      0.80      0.85       110
+          H       0.77      0.87      0.82       327
+          I       0.91      0.91      0.91       979
+          J       0.77      0.92      0.84       109
+          K       0.74      0.81      0.77        48
+          L       0.94      0.96      0.95      1000
+          M       0.86      0.87      0.86       571
+          N       0.94      0.91      0.93      1060
+          O       0.92      0.93      0.92       598
+          P       0.70      0.82      0.75        93
+          Q       0.82      0.64      0.72        14
+          R       0.88      0.90      0.89       537
+          S       0.96      0.90      0.93       402
+          T       0.90      0.97      0.93       518
+          U       0.90      0.90      0.90       374
+          V       0.84      0.78      0.81       105
+          W       0.58      0.79      0.67        38
+          X       0.85      0.89      0.87       102
+          Y       0.91      0.88      0.89       163
+          Z       0.78      0.84      0.81        37
+
+avg / total       0.91      0.91      0.91     11013
+
+
+
+Full name test results: 
+========================================================================
+| Classifier            | Correct percentage      | Correlation ratio  |
+========================================================================
+| MLP with PCA features | 0.6283280085197018     | 0.9115995563800039 |
+========================================================================
+
+> Real label: BASTIEN
+MLP with PCA features predicted: BABTIEN
+
+
+> Real label: MATTHIEU
+MLP with PCA features predicted: MATTHIEU
+
+
+> Real label: TESSA
+MLP with PCA features predicted: TSSA
+
+
+> Real label: AYMERIC
+MLP with PCA features predicted: AYMERIC
+
+
+> Real label: ELSA
+MLP with PCA features predicted: ELSA
